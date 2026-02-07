@@ -18,9 +18,8 @@ body {
   position: relative;
 }
 .wide {
-  grid-column: 1 / -1;   /* tüm grid genişliği */
-  grid-row: span 2;      /* biraz yüksek */
-  height: 260px;
+  grid-column: 1 / -1;
+  grid-row: span 2;
 }
 
 .collage img {
@@ -28,7 +27,6 @@ body {
   height: 100%;
   object-fit: cover;
   background: #fff;
-  padding: 10px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.2);
   transition: transform 0.3s, z-index 0.3s;
   cursor: pointer;

@@ -17,6 +17,11 @@ body {
   margin: auto;
   position: relative;
 }
+.wide {
+  grid-column: 1 / -1;   /* tüm grid genişliği */
+  grid-row: span 2;      /* biraz yüksek */
+  height: 260px;
+}
 
 .collage img {
   width: 100%;
